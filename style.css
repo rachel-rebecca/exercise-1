@@ -53,6 +53,10 @@ button {
     float: left; /* or text-align: left; here instead */
     padding-left: 13%;
     padding-top: 5%;
+    display: flex;
+    align-items: center;
+    width: 15%;
+
 }
 
 .rememberMe {
@@ -68,5 +72,5 @@ p2 {
     display: inline;
     color: #AAAAAA;
     font-size: .75em;
-    
+   /* padding-left: .5%;*/
 }
