@@ -24,7 +24,7 @@ p1 {
 
 
 .textBox {
-    display: inline-block;
+    display: inline-block; /* used block/inline before seeing exercise description, would have used <br> in HTML instead */
     margin: 25px;
     height: 50px;
     width: 70%;
