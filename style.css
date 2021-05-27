@@ -4,6 +4,16 @@ body {
     font-weight: lighter;
 }
 
+.signIn {
+    background-color: #F0F0F0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    text-align: center;
+    height: 400px;
+    width: 70%;
+}
+
 p1 {
     font-size: 1.25em;
     color: #7E7E7E;
@@ -12,15 +22,6 @@ p1 {
     display: block;
 }
 
-.signIn {
-    background-color: #F0F0F0;
-    margin: auto;
-    text-align: center;
-    height: 400px;
-    width: 70%;
-   
-
-}
 
 .textBox {
     display: inline-block;
@@ -38,11 +39,20 @@ p1 {
     padding-left: 2%;
 }
 
-p2 {
-    display: inline;
-    color: #AAAAAA;
-    font-size: 1em;
-    
+button {
+    background-color: #9DD8D4;
+    border: none;
+    color: azure;
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 15%;
+}
+
+.check {
+    float: left;
+    padding-left: 13%;
+    padding-top: 5%;
 }
 
 .rememberMe {
@@ -54,18 +64,9 @@ p2 {
     border-color: silver;
 }
 
-.check {
-    float: left;
-    padding-left: 13%;
-    padding-top: 5%;
-}
-
-button {
-    background-color: #9DD8D4;
-    border: none;
-    color: azure;
-    display: block;
-    margin: auto;
-    height: 40px;
-    width: 15%;
+p2 {
+    display: inline;
+    color: #AAAAAA;
+    font-size: 1em;
+    
 }
